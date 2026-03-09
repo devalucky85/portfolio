@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "software_engineer": "Full Stack Developer",
+    "cybersecurity": "Web3 Enthusiast",
+    "greeting": "HELLO, I'M",
+    "description": "I'm Dev Kumar, a Full Stack Developer from India who enjoys building scalable web applications, solving complex problems using Data Structures & Algorithms, and exploring Web3 technologies.",
+    "download_cv": "Download CV",
+    "select_cv_language": "Select language",
+    "brazilian_portuguese": "Hindi",
+    "english": "English"
+  },
+  "navbar": {
+    "education": "Education",
+    "skills": "Skills",
+    "portfolio": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "education": {
+    "title": "Education",
+    "institution": "Narula Institute of Technology",
+    "degree": "Bachelor of Technology in Computer Science",
+    "graduationDate": "2027"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "cybersecurity": "Cybersecurity",
+    "design_creativity": "Design & Creativity",
+    "description": "I have experience with technologies such as React.js, Node.js, , web3 and blockchain, system design , and C++."
+  },
+  "portfolio": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Modern E-Commerce Platform",
+        "description": "A full stack e-commerce application built using React, Node.js, Express, and SQL. It includes user authentication, product management, shopping cart functionality, and secure checkout."
+      },
+      {
+        "title": "Restaurant & Food Delivery System",
+        "description": "A scalable system similar to Zomato that manages restaurants, orders, and payments using design patterns such as Factory, Strategy, and Singleton."
+      },
+      {
+        "title": "Smart Dashboard System",
+        "description": "An interactive dashboard that displays analytics and system data in real time using API integrations."
+      },
+      {
+        "title": "Crypto Dashboard",
+        "description": "A web application that fetches cryptocurrency data from APIs and displays real-time prices with secure API key handling."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "experiences": [
+      {
+        "company": "Future Inters",
+        "role": "Full Stack Developer Intern",
+        "location": "Remote",
+        "duration": "2025 - Present",
+        "description": [
+          "<strong>Developed</strong> scalable web applications using <strong>React, Node.js, and Express</strong>.",
+          "<strong>Built</strong> REST APIs and integrated backend services with modern frontend frameworks.",
+          "<strong>Collaborated</strong> with development teams to improve performance and implement new features."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "About",
+    "title_2": " Me",
+    "description": "Hello, I'm Dev Kumar, a Computer Science student at Narula Institute of Technology graduating in 2027. I am passionate about Full Stack Development, Data Structures & Algorithms, and Web3 technologies.<br><br>I have experience building scalable web applications using React, Node.js, Express, Django, and SQL. I also enjoy solving algorithmic challenges using C++ and learning system design concepts.<br><br>Currently, I am working as a Full Stack Developer Intern at Future Inters and focusing on improving my backend architecture and blockchain development skills.",
+    "projects": "Projects",
+    "years_of_experience": "Years of experience",
+    "contact_message": "I'm open to new opportunities, internships, and collaborations. Feel free to reach out!",
+    "name_placeholder": "Your name ...",
+    "email_placeholder": "Your email ...",
+    "message_placeholder": "Your message ...",
+    "send_button": "Send"
+  },
+  "footer": {
+    "name": "Dev Kumar",
+    "rights": "© 2026 Dev Kumar. All rights reserved."
+  }
+}

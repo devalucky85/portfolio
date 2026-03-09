@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "software_engineer": "Full Stack Developer",
+    "cybersecurity": "Web3 Enthusiast",
+    "greeting": "HEY, I'M",
+    "description": "I'm Dev Kumar, a Full Stack Developer from India who enjoys building scalable web applications and exploring Web3 technologies. I work with modern frameworks and love solving complex problems with clean and efficient code.",
+    "download_cv": "Download CV",
+    "select_cv_language": "Select language",
+    "brazilian_portuguese": "Hindi",
+    "english": "English"
+  },
+  "navbar": {
+    "education": "Education",
+    "skills": "Skills",
+    "portfolio": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "education": {
+    "title": "Education",
+    "institution": "Narula Institute of Technology",
+    "degree": "B.Tech in Computer Science and Engineering",
+    "graduationDate": "2027"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "cybersecurity": "Web3",
+    "design_creativity": "Problem Solving",
+    "description": "I have experience with the following technologies: React, Node.js, Express.js, Django, SQL, Python, and C++."
+  },
+  "portfolio": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Modern E-Commerce Platform",
+        "description": "A full stack e-commerce application built with React, Node.js, Express, and SQL. It includes product management, authentication, cart system, and secure payment integration."
+      },
+      {
+        "title": "Restaurant & Food Delivery System",
+        "description": "A scalable system similar to Zomato with restaurant management, order tracking, and payment strategies. Implemented using design patterns like Factory, Strategy, and Singleton."
+      },
+      {
+        "title": "Smart Dashboard System",
+        "description": "A real-time dashboard for monitoring analytics and system metrics with interactive UI and API integration."
+      },
+      {
+        "title": "Crypto Dashboard",
+        "description": "A web application that fetches cryptocurrency data using APIs and displays real-time prices using multithreading and secure API handling."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "experiences": [
+      {
+        "company": "Future Inters",
+        "role": "Full Stack Developer Intern",
+        "location": "Remote",
+        "duration": "2025 - Present",
+        "description": [
+          "<strong>Developed</strong> scalable full stack applications using <strong>React, Node.js, and Express</strong> improving system performance and maintainability.",
+          "<strong>Built</strong> REST APIs and integrated them with modern frontend frameworks to create responsive web applications.",
+          "<strong>Collaborated</strong> with development teams to implement features, fix bugs, and optimize application performance."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "About",
+    "title_2": " Me",
+    "description": "Hi, I'm Dev Kumar, a Computer Science student at Narula Institute of Technology graduating in 2027. I am passionate about Full Stack Development, Data Structures & Algorithms, and Web3 technologies.<br><br>I have experience building scalable web applications using React, Node.js, Express, Django, and SQL. I also enjoy solving algorithmic problems in C++ and designing efficient backend systems.<br><br>Currently, I am working as a Full Stack Developer Intern at Future Inters and focusing on improving my system design and blockchain development skills.",
+    "projects": "Projects",
+    "years_of_experience": "years of experience",
+    "contact_message": "I'm open to new opportunities, internships, and collaborations. Feel free to reach out!",
+    "name_placeholder": "Your name ...",
+    "email_placeholder": "Your email ...",
+    "message_placeholder": "Your message ...",
+    "send_button": "Send"
+  },
+  "footer": {
+    "name": "Dev Kumar",
+    "rights": "© 2026 Dev Kumar. All rights reserved."
+  }
+}

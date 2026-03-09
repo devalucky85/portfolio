@@ -1,0 +1,155 @@
+{
+  "hero": {
+    "software_engineer": "Full Stack Developer",
+    "cybersecurity": "Web3 Enthusiast",
+    "greeting": "HEY, I'M",
+    "name": "Dev Kumar",
+    "description": "I'm Dev Kumar, a Full Stack Developer from India passionate about building scalable web applications, solving complex problems with Data Structures & Algorithms, and exploring Web3 technologies.",
+    "download_cv": "Download CV",
+    "select_cv_language": "Select language",
+    "hindi": "Hindi",
+    "english": "English"
+  },
+
+  "navbar": {
+    "education": "Education",
+    "skills": "Skills",
+    "portfolio": "Projects",
+    "experience": "Experience",
+    "achievements": "Achievements",
+    "contact": "Contact"
+  },
+
+  "education": {
+    "title": "Education",
+    "institution": "Narula Institute of Technology",
+    "degree": "B.Tech in Computer Science and Engineering",
+    "graduationDate": "2027",
+    "description": "Focused on Software Engineering, Data Structures, Algorithms, Operating Systems, and Database Systems."
+  },
+
+  "skills": {
+    "title": "Skills",
+
+    "frontend": {
+      "title": "Frontend",
+      "items": ["React", "JavaScript", "HTML5", "CSS3", "TypeScript"]
+    },
+
+    "backend": {
+      "title": "Backend",
+      "items": ["Node.js", "Express.js", "Django", "REST APIs"]
+    },
+
+    "database": {
+      "title": "Database",
+      "items": ["SQL", "MongoDB"]
+    },
+
+    "programming": {
+      "title": "Programming Languages",
+      "items": ["C++", "Python", "JavaScript"]
+    },
+
+    "tools": {
+      "title": "Tools & Technologies",
+      "items": ["Git", "GitHub", "Docker", "Linux"]
+    },
+
+    "special": {
+      "title": "Special Interests",
+      "items": ["Web3", "System Design", "Data Structures & Algorithms"]
+    }
+  },
+
+  "portfolio": {
+    "title": "Projects",
+
+    "projects": [
+
+      {
+        "title": "Modern E-Commerce Platform",
+        "tech": ["React", "Node.js", "Express", "SQL"],
+        "description": "A scalable full stack e-commerce platform with authentication, product management, shopping cart, and secure checkout.",
+        "features": [
+          "User authentication",
+          "Product catalog",
+          "Cart system",
+          "Order management"
+        ]
+      },
+
+      {
+        "title": "Restaurant & Food Delivery System",
+        "tech": ["Node.js", "Express", "SQL"],
+        "description": "A system similar to Zomato that manages restaurants, orders, and payments using design patterns.",
+        "features": [
+          "Factory pattern for order creation",
+          "Strategy pattern for payments",
+          "Singleton for system managers"
+        ]
+      },
+
+      {
+        "title": "Smart Dashboard System",
+        "tech": ["React", "API Integration"],
+        "description": "A real-time dashboard displaying analytics and monitoring system data through API integrations."
+      },
+
+      {
+        "title": "Crypto Dashboard",
+        "tech": ["Python", "API", "Multithreading"],
+        "description": "A cryptocurrency tracking application fetching real-time data from APIs with secure API key handling."
+      }
+    ]
+  },
+
+  "experience": {
+    "title": "Experience",
+    "experiences": [
+      {
+        "company": "Future Inters",
+        "role": "Full Stack Developer Intern",
+        "location": "Remote",
+        "duration": "2025 - Present",
+        "description": [
+          "Developing scalable web applications using React, Node.js, and Express.",
+          "Building REST APIs and integrating them with modern frontend frameworks.",
+          "Collaborating with development teams to optimize application performance and implement new features."
+        ]
+      }
+    ]
+  },
+
+  "achievements": {
+    "title": "Achievements",
+    "items": [
+      "Solved 450+ Data Structures and Algorithms problems.",
+      "Built multiple full stack applications.",
+      "Participated in system design and low level design challenges.",
+      "Actively learning Web3 and blockchain development."
+    ]
+  },
+
+  "contact": {
+    "title": "About",
+    "title_2": " Me",
+    "description": "Hi, I'm Dev Kumar, a Computer Science student at Narula Institute of Technology graduating in 2027. I am passionate about Full Stack Development, Data Structures & Algorithms, and Web3 technologies.<br><br>I enjoy building scalable web applications using React, Node.js, Express, Django, and SQL. I also love solving algorithmic challenges in C++ and learning system design concepts.<br><br>Currently, I am working as a Full Stack Developer Intern at Future Inters and focusing on improving my backend architecture and blockchain development skills.",
+
+    "projects": "Projects",
+    "years_of_experience": "Years of experience",
+
+    "contact_message": "I'm open to internships, freelance projects, and collaborations. Feel free to reach out!",
+
+    "name_placeholder": "Your name ...",
+    "email_placeholder": "Your email ...",
+    "message_placeholder": "Your message ...",
+
+    "send_button": "Send"
+  },
+
+  "footer": {
+    "name": "Dev Kumar",
+    "rights": "© 2026 Dev Kumar. All rights reserved."
+  }
+}
