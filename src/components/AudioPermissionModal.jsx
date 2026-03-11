@@ -30,15 +30,15 @@ const AudioPermissionModal = ({ onAccept }) => {
       <div className="bg-purple-900 bg-opacity-20 backdrop-blur-md p-4 rounded-xl border border-purple-400 border-opacity-50 shadow-xl">
         <div className="flex items-center gap-3 mb-3">
           <AiOutlineSound className="text-purple-400 text-xl" />
-          <h2 className="text-lg font-semibold text-gray-200">Permissão de Áudio</h2>
+          <h2 className="text-lg font-semibold text-gray-200"></h2>
         </div>
           <p className="mb-4 text-sm text-gray-300">
-          Para uma melhor experiência, permita o áudio de fundo.
+         
         </p>
         
         <div className="mb-3 p-2 bg-blue-900 bg-opacity-30 rounded-lg border border-blue-500 border-opacity-50">
           <p className="text-xs text-blue-200">
-            💡 <strong>Dica:</strong> Para não ver esta mensagem novamente, permita áudio nas configurações do navegador para este site.
+            💡 <strong></strong> 
           </p>
         </div>
         
@@ -49,7 +49,7 @@ const AudioPermissionModal = ({ onAccept }) => {
             onClick={handleDecline}
             className="px-3 py-1.5 bg-gray-700 bg-opacity-50 text-gray-300 rounded-lg text-sm hover:bg-gray-600 transition-colors border border-gray-600"
           >
-            Recusar
+            
           </motion.button>
           
           <motion.button
@@ -58,7 +58,7 @@ const AudioPermissionModal = ({ onAccept }) => {
             onClick={handleAccept}
             className="px-3 py-1.5 bg-purple-600 text-white rounded-lg text-sm hover:bg-purple-700 transition-colors border border-purple-500"
           >
-            Aceitar
+            
           </motion.button>
         </div>
       </div>

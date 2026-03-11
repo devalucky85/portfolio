@@ -64,7 +64,7 @@ const Hero = () => {
         setIsPlaying(true);
         setShowAudioModal(false);
         setShowPlayButton(false);
-        console.log('Áudio tocando automaticamente');
+        console.log('Áudio automaticamente');
         
       } catch (err) {
         // Se falhou (Chrome e navegadores restritivos), verificar se já tinha permissão
@@ -77,7 +77,7 @@ const Hero = () => {
           setShowAudioModal(true);
           setShowPlayButton(false);
         }
-        console.log('Autoplay bloqueado, mostrando UI de permissão');
+        console.log('Autoplay');
       }
     };
 
@@ -92,7 +92,7 @@ const Hero = () => {
     
     audioRef.current.play()
       .then(() => {
-        console.log('Áudio ativado pelo usuário');
+        console.log('Áudio');
         setIsPlaying(true);
       })
       .catch(err => {
@@ -103,7 +103,7 @@ const Hero = () => {
             .then(() => {
               setIsPlaying(true);
             })
-            .catch(e => console.log('Segundo erro ao tentar tocar:', e));
+            .catch(e => console.log('sound error after permission:', e));
         }, 100);
       });
   };
@@ -117,7 +117,7 @@ const Hero = () => {
     
     audioRef.current.play()
       .then(() => {
-        console.log('Áudio tocando após clique');
+        console.log('Áudio ');
         setIsPlaying(true);
       })
       .catch(err => {
@@ -169,11 +169,11 @@ const Hero = () => {
           <div className="bg-purple-900 bg-opacity-20 backdrop-blur-md p-4 rounded-xl border border-purple-400 border-opacity-50 shadow-xl">
             <div className="flex items-center gap-3 mb-3">
               <AiOutlineSound className="text-purple-400 text-xl" />
-              <h2 className="text-lg font-semibold text-gray-200">Tocar Áudio</h2>
+              <h2 className="text-lg font-semibold text-gray-200">sound</h2>
             </div>
             
             <p className="mb-4 text-sm text-gray-300">
-              Clique para ativar o áudio de fundo.
+              
             </p>
             
             <div className="flex justify-end">
@@ -183,7 +183,7 @@ const Hero = () => {
                 onClick={handlePlayAudio}
                 className="px-3 py-1.5 bg-purple-600 text-white rounded-lg text-sm hover:bg-purple-700 transition-colors border border-purple-500"
               >
-                Tocar
+                audio
               </motion.button>
             </div>
           </div>
@@ -255,7 +255,7 @@ const Hero = () => {
               </h2>
               <div className="flex flex-col gap-4 items-start text-xl text-white">
                 <button
-                  onClick={() => (window.location.href = "/CV - PT-BR.pdf")}
+                  onClick={() => (window.location.href = "/CV-PT.pdf")}
                 >
                   {t("hero.brazilian_portuguese")}
                 </button>
@@ -263,7 +263,7 @@ const Hero = () => {
                   {t("hero.english")}
                 </button>
               </div>
-            </Modal>            <div className="flex gap-6 flex-row text-4xl xl:text-6xl md:text-5xl text-purple-400 z-20 relative">
+            </Modal><div className="flex gap-6 flex-row text-4xl xl:text-6xl md:text-5xl text-purple-400 z-20 relative">
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href="https://github.com/devalucky85"
@@ -284,7 +284,7 @@ const Hero = () => {
                 <AiOutlineLinkedin />
               </motion.a>
 
-              <motion.a
+              {/* <motion.a
                 // whileHover={{ scale: 1.2 }}
                 // href="https://tryhackme.com/r/p/paulemacedo"
                 // className="relative z-10"
@@ -292,7 +292,7 @@ const Hero = () => {
                 // rel="noopener noreferrer"
               >
                 <SiTryhackme />
-              </motion.a>
+              </motion.a> */}
 
               <motion.div
                 whileHover={{ scale: 1.2 }}
